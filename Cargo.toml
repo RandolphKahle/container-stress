@@ -1,5 +1,5 @@
 [package]
-name = "misbehaving-process"
+name = "ram-stress"
 version = "0.1.0"
 authors = ["Randolph Kahle <randy@doit-intl.com>"]
 edition = "2018"
