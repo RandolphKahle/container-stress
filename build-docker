@@ -1,0 +1,12 @@
+#
+# File: build-docker
+#
+# Purpose: Compile Rust program and build Docker image
+#
+
+
+export VERSION=0.1.1
+
+docker build -t resourcefulcomputing/container-stress:$VERSION .
+docker push resourcefulcomputing/container-stress:$VERSION
+

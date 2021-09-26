@@ -6,5 +6,5 @@ ADD . /app
 RUN cargo build --release
 
 FROM gcr.io/distroless/cc
-COPY --from=build-env /app/target/release/ram-stress /
-CMD ["./ram-stress"]
+COPY --from=build-env /app/target/release/container-stress /
+CMD ["./container-stress"]
