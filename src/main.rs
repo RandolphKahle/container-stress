@@ -1,3 +1,15 @@
+//! # Container Stress
+//!
+//! The purpose of this utility is to create stress on the computational environment.
+//!
+//! This can be used to ensure that environments have propert limits set and recovery mechanisms
+//! implemented.
+//!
+//! There are several potential modes of stress. The first implementation will support memory
+//! allocation stress.
+
+
+////////////////////////////////////////////////////////////////////////////////
 //use structopt::StructOpt;
 //use rand::prelude::*;
 
@@ -26,19 +38,6 @@ use signal_hook::iterator::Signals;
 
 
 
-// Container Stress
-//
-// The purpose of this utility is to create stress on the computational environment.
-//
-// This can be used to ensure that environments have propert limits set and recovery mechanisms
-// implemented.
-//
-// There are several potential modes of stress. The first implementation will support memory
-// allocation stress.
-
-/// Is this some other level of documentation?
-///
-/// Let's practice with this.
 
 // const MEMORY_BLOCK_SIZE: usize = 1048576;
 
